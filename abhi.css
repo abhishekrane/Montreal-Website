@@ -1,0 +1,155 @@
+<title>Example</title>
+<!--code by Name:Abhishek RedID: 822056658 -->
+
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    alignment-baseline: central;
+    background: #F6F5F5;
+    min-height: 100%;
+    padding-bottom:60px;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  #container
+{
+  margin: 0 auto 0 auto; 
+  margin-top:25px;
+  display: block; 
+  height: auto;
+  position: relative; 
+  overflow: hidden; 
+  background: white ;
+  width: 800px;
+  padding-bottom: 60px;
+}
+  #header
+{
+position: relative;
+width:80px
+height:;
+
+}
+
+img.mainimage{
+width: 100%;
+height:auto;
+}
+
+
+#bar
+{
+background:black;
+width:900px;
+height:50px;
+float:left;
+clear:both;
+}
+
+#bar ul {
+  list-style: none;
+  margin-left:auto;
+  width:900px;
+}
+
+#bar li {
+  list-style: none;
+  padding: 15px; 
+  display: inline; 
+
+  
+}
+
+#bar a
+{
+ display: inline-block;
+ color: white;
+ text-decoration: none;
+ vertical-align: center;
+}
+
+#bar a:hover
+{
+color:#C7E0C2;
+}
+
+.contentText
+{ margin-top: 10px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom: 20px;
+  float: right;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 30%;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 155px;
+}
+
+div.desc {
+    padding:5px;
+    text-align: center;
+}
+
+div.text
+{
+ padding-top: 10px;
+text-align: justify;
+padding-left: 230px;
+}
+
+div.text_desc
+{
+  
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+img.icon
+{
+float:left;
+width:40%;
+padding-right: 10PX;
+height: 210px;
+
+}
+
+h2
+{
+  text-align: center;
+  padding-top: 10px;
+}
+
+h3
+{
+  padding-top: 10px;
+}
+
+#footer
+ {
+  color: white;
+ text-align: center;
+ padding-top: 5px;
+ position:absolute;
+ bottom:0;
+ width:100%;
+ height:50px;   /* Height of the footer */
+ background: black ;
+ } 
+  
+</style>
